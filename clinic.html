@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Clinic view · Pulse (a concept by webtheory.co)</title>
+  <meta name="description" content="The Pulse concept's staff day view: the same fictional bookings, as the front desk sees them. Read-only.">
+  <meta name="theme-color" content="#f3f0ea">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/instrument-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="modulepreload" href="assets/pulse.js">
+  <link rel="stylesheet" href="assets/style.css">
+  <script type="module" src="assets/clinic.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="conceptbar">Concept by webtheory.co · not a real business · <a href="https://webtheory-co.web.app/work/pulse">Read the case study ↗</a></div>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="logo" href="index.html" aria-label="pulse, home"><span class="logo-ring" aria-hidden="true"></span>pulse</a>
+      <nav class="nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html#treatments">Treatments</a></li>
+          <li><a href="index.html#how">How booking works</a></li>
+          <li><a href="clinic.html" aria-current="page">Clinic view</a></li>
+        </ul>
+      </nav>
+      <a class="btn btn-dark btn-sm" href="book.html">Book a visit</a>
+    </div>
+  </header>
+
+  <main id="main" class="wrap">
+    <div class="clinic-head">
+      <p class="badge">Staff screen · read-only</p>
+      <h1>Clinic view</h1>
+      <p>How the front desk sees the day. Online bookings land here as they're made, from the same fictional diary the booking flow uses. Every name here is made up.</p>
+    </div>
+    <ul class="didnt">
+      <li><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#check"/></svg><span><strong>No phone call</strong>Nothing to answer, nothing to return.</span></li>
+      <li><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#check"/></svg><span><strong>Nothing to re-type</strong>Name, mobile and note arrive with the booking.</span></li>
+      <li><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#check"/></svg><span><strong>No double-booking</strong>A time is held while the patient types, then it's theirs.</span></li>
+    </ul>
+
+    <section class="newbook is-none" id="new" aria-labelledby="new-title">
+      <p class="newbook-label">No concept booking yet</p>
+      <h2 id="new-title">Make one, and it lands here.</h2>
+      <p>Book through the patient flow and it appears on this screen, highlighted, with your note. Nothing is sent anywhere: both screens read the same fictional diary, in your browser.</p>
+      <a class="link-arrow" href="book.html">Book an appointment<svg class="icon" aria-hidden="true"><use href="assets/icons.svg#next"/></svg></a>
+    </section>
+
+    <section class="desk" aria-labelledby="day-title">
+      <div class="desk-bar">
+        <h2 id="day-title">The next seven days</h2>
+      </div>
+      <div class="days" id="days" role="group" aria-label="Choose a day"></div>
+      <div class="board" id="board">
+        <noscript><p class="off">The day view is built in your browser from the fictional diary, so it needs JavaScript.</p></noscript>
+      </div>
+      <p class="sr-only" id="announce" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-about">
+        <a class="logo" href="index.html" aria-label="pulse, home"><span class="logo-ring" aria-hidden="true"></span>pulse</a>
+        <p>A fictional physiotherapy and wellness clinic, made up to show how calm booking can be.</p>
+      </div>
+      <nav class="footer-links" aria-label="Footer">
+        <a href="index.html">Clinic home</a>
+        <a href="book.html">Book an appointment</a>
+        <a href="https://webtheory-co.web.app/work/pulse">Read the case study ↗</a>
+      </nav>
+      <p class="credit">Designed &amp; built by <a href="https://webtheory-co.web.app">webtheory.co</a></p>
+    </div>
+  </footer>
+</body>
+</html>

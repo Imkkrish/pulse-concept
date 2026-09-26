@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <!-- Original line icons for the Pulse concept. 24×24, stroke = currentColor. -->
+  <symbol id="assessment" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="4.6" r="2.1"/><path d="M12 8.2v6.3M7 10.6c1.6.9 3.3 1.3 5 1.3s3.4-.4 5-1.3M9 20.5l3-6 3 6"/>
+  </symbol>
+  <symbol id="follow-up" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M19.2 12.4A7.2 7.2 0 1 1 17 6.9"/><path d="M17.6 3.6 17.2 7.3l-3.6-.5"/><path d="M12 8.6V12l2.2 1.6"/>
+  </symbol>
+  <symbol id="massage" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M3.5 9c2.1-1.8 4.2-1.8 6.3 0s4.2 1.8 6.3 0c1.4-1.2 2.9-1.6 4.4-1"/><path d="M3.5 15c2.1-1.8 4.2-1.8 6.3 0s4.2 1.8 6.3 0c1.4-1.2 2.9-1.6 4.4-1"/>
+  </symbol>
+  <symbol id="acupuncture" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M3.5 19.5c5.5-3 11.5-3 17 0"/><path d="M8 16.4V6.5M12 15.8V4.5M16 16.4V6.5" stroke-width="1.2"/><circle cx="8" cy="5.2" r="1"/><circle cx="12" cy="3.2" r="1"/><circle cx="16" cy="5.2" r="1"/>
+  </symbol>
+  <symbol id="pilates" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M2.5 20h19"/><circle cx="18.6" cy="15.6" r="1.8"/><path d="M4.5 17.5 7 12.5l5-2 4.3 3.9"/><path d="M7 12.5l-.9 5"/>
+  </symbol>
+  <symbol id="any" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+    <circle cx="8.5" cy="12" r="4.5"/><circle cx="15.5" cy="12" r="4.5"/>
+  </symbol>
+  <symbol id="person" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
+    <circle cx="12" cy="8" r="3.6"/><path d="M4.8 20c.9-3.7 3.7-5.6 7.2-5.6s6.3 1.9 7.2 5.6"/>
+  </symbol>
+  <symbol id="calendar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="3.5" y="5" width="17" height="15.5" rx="3"/><path d="M3.5 10h17M8 3v4M16 3v4"/><circle cx="12" cy="15" r="1.3" fill="currentColor" stroke="none"/>
+  </symbol>
+  <symbol id="list" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
+    <path d="M9 7h11M9 12h11M9 17h11"/><circle cx="4.8" cy="7" r="1" fill="currentColor"/><circle cx="4.8" cy="12" r="1" fill="currentColor"/><circle cx="4.8" cy="17" r="1" fill="currentColor"/>
+  </symbol>
+  <symbol id="hold" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="5" y="10.5" width="14" height="10" rx="2.6"/><path d="M8.3 10.5V8a3.7 3.7 0 0 1 7.4 0v2.5"/>
+  </symbol>
+  <symbol id="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M5.5 12.5 10 17l8.5-9.5"/>
+  </symbol>
+  <symbol id="back" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M19 12H5.5M11 6l-6 6 6 6"/>
+  </symbol>
+  <symbol id="next" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M9 5.5 15.5 12 9 18.5"/>
+  </symbol>
+  <symbol id="alert" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round">
+    <circle cx="12" cy="12" r="8.5"/><path d="M12 7.5v5.5"/><circle cx="12" cy="16.4" r=".9" fill="currentColor" stroke="none"/>
+  </symbol>
+</svg>
